@@ -28,8 +28,6 @@ bash txt2pdf.sh file1.txt file2.txt file3.log
 bash txt2pdf.sh *.txt
 ```
 
-This will create `input_file.pdf` in the same directory.
-
 ## How It Works
 
 1. The script first validates the input file exists and is readable
