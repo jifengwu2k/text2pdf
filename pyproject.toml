@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chromecodepdf"
+version = "0.1.0-alpha"
+description = "A Python script that converts code files into syntax-highlighted PDF documents using Chrome and Pygments."
+readme = "README.md"
+requires-python = ">=2"
+license = "MIT"
+authors = [
+  { name="Jifeng Wu", email="jifengwu2k@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "get-chrome-paths",
+    "posix-or-nt",
+    "proclaunch",
+    "pygments",
+    "strcompat",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/jifengwu2k/chromecodepdf"
+"Bug Tracker" = "https://github.com/jifengwu2k/chromecodepdf/issues"

@@ -1,0 +1,5 @@
+get-chrome-paths
+posix-or-nt
+proclaunch
+pygments
+strcompat
